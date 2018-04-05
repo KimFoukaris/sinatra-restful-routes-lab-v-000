@@ -1,5 +1,5 @@
 <p>My Recipes</p>
 <% @recipes.each do |recipe| %>
 <p><%= recipe.name %></p>
-<a href="/recipes/recipe.id">Click for recipe</a>
+<a href="/recipes/:id">Click for recipe</a>
 <% end %>
